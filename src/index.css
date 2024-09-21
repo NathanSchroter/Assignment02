@@ -1,0 +1,50 @@
+h1{
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.text p{
+   margin: 0;
+
+}
+.text h2{
+    margin-top: 0px;
+}
+
+.mainContainer{
+    padding: 15px 15px 15px 15px;
+    gap: 3rem;
+    display: flex;
+    color: white;
+    background-color: purple;
+    margin-bottom: 20px;
+   width: 70%;
+   align-items: center;
+   transition: all .8 ease-in-out;
+}
+
+.mainContainer img {
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.app{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Nunito Sans", sans-serif;
+}
+.app h1 {
+    justify-content: center;
+    width: 100%;
+}
+.mainContainer:hover{
+    color: red;
+    background-color: green;
+   
+}
